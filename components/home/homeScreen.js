@@ -65,7 +65,7 @@ export default class HomeComponent extends Component {
             </View>
 
             <View style={styles.foo}>
-              <Text>Footer</Text>
+              <Text>Kaio</Text>
             </View>
           </Col>
         </Grid>

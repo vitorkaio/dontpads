@@ -15,6 +15,7 @@ import {
 import { Router, Scene } from 'react-native-router-flux'
 import HomeScreen from './components/home/homeScreen'
 import UrlScreen from './components/url/url-screen'
+import NavBarURlComponent from './components/url/url-navbar'
 
 export default class App extends Component {
   constructor(){
@@ -27,7 +28,7 @@ export default class App extends Component {
       <Router>
         <Scene key="root">
           <Scene key="home" component={HomeScreen} title="Home" initial hideNavBar />
-          <Scene key="url" component={UrlScreen} title="Url" />
+          <Scene key="url" component={UrlScreen} title="Url" hideNavBar />
           {/*<Scene key="lista" component={ListaScreen} title="Lista" hideNavBar modal />*/}
         </Scene>
       </Router>
